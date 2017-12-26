@@ -1,0 +1,35 @@
+{
+  "name": "spyserp/phpclient",
+  "description": "Client API for Spyserp.com",
+  "type": "library",
+  "version": "1.0.0",
+  "keywords": [
+    "SpySerp",
+    "parser",
+    "API",
+    "php"
+  ],
+  "minimum-stability": "stable",
+  "support": {
+    "docs": "https://spyserp.com/api/",
+    "issues": "https://spyserp.com"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "spyserp",
+      "homepage": "https://spyserp.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "phpclient\\": ""
+    }
+  }
+}
